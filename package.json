@@ -1,0 +1,17 @@
+{
+  "name": "logisim-control-mcp",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local MCP tools for inspecting, editing and testing Logisim-evolution circuits.",
+  "license": "MIT",
+  "engines": {"node": ">=18"},
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/protocol.test.mjs",
+    "test:integration": "node --test tests/integration.test.mjs",
+    "privacy": "python scripts/privacy_check.py",
+    "package": "python scripts/package_release.py"
+  },
+  "repository": {"type": "git", "url": "https://github.com/EtherBond/logisim-control-mcp.git"}
+}

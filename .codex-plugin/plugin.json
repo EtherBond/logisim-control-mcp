@@ -1,0 +1,23 @@
+{
+  "name": "logisim-mcp",
+  "version": "1.1.0",
+  "description": "Agent-friendly local Logisim-evolution inspection, editing and simulation.",
+  "author": {
+    "name": "Logisim Control MCP contributors"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Logisim Control",
+    "shortDescription": "搭建电路并控制 Logisim 仿真",
+    "longDescription": "Named ports, instance state inspection, batch editing, simulation and bundled agent tutorials for local Logisim-evolution 3.9.0.",
+    "developerName": "Logisim Control MCP contributors",
+    "category": "Education & Research",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "defaultPrompt": "使用 Logisim 搭建并验证一个 101 序列检测器。"
+  }
+}

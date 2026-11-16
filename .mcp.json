@@ -1,0 +1,1 @@
+{"mcpServers":{"logisim-control":{"command":"node","args":["${PLUGIN_ROOT}/server/index.mjs"]}}}
